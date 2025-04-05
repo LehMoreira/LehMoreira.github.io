@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css "rel="stylesheet " integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM "crossorigin="anonymous ">
+		<link rel="stylesheet " href="style.css ">
+		<link rel="stylesheet "href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css ">
+		<link href=" https://cdn.jsdelivr.net/npm/open-iconic@1.1.1/font/css/open-iconic-bootstrap.min.css "rel="stylesheet ">
+	<title>Portifolio Leh</title>
+</head>
+
+<body>
+	<header>
+		
+				<div class="menu fixed-top">
+					
+					<a href="index.html#home"><i class="bi bi-house-heart-fill"></i> Home</a>
+					<a  href="index.html#quemSou"><i class="bi bi-patch-question"></i> Quem sou</a>
+                    <a  href="experience.html"><i class="bi bi-person-lines-fill"></i> Experiência</a>
+					<a  href="#contato"><i class="bi bi-person-rolodex"></i> Contato</a>
+				</div>
+		
+	</header>
+	<div class="background"></div>
+    <section>
+		
+		<div class="container">
+			<ul>
+				<h4><li id="home" class="redirecionamento">Experiência</li></h4>
+				<p><h6><i class="bi bi-wrench-adjustable-circle-fill"></i> Suporte Técnico Nível 1- IFPB <i>Campus</i> Itaporanga</h6>
+                    <p>(outubro/2022-janeiro/2024)</p>
+					<ul>
+						<li>Gerenciamento e monitoramento da rede local utilizando pfSense para controle de tráfego, firewall, VPN e segurança, garantindo a estabilidade e o bom funcionamento dos serviços de conectividade;</li>
+					    <li>Manutenção preventiva e corretiva de hardware, com foco em desktops e notebooks utilizados no campus;</li>
+				        <li>Formatação e configuração de computadores conforme os padrões da instituição;</li>
+					    <li>Gerenciamento de servidor Linux virtualizado em ambiente VMware ESXi, incluindo atualizações, configuração de serviços (DHCP, DNS, Apache, entre outros) e suporte técnico aos usuários.</li>
+				    </ul><br>	
+					<h6><i class="bi bi-file-earmark-code-fill"></i> Desenvolvimento e Suporte Cloud - Banco do Brasil</h6>
+                    <p>(fevereiro/2025)</p>
+				    <ul>
+					    <li>Desenvolvimento de aplicações Java utilizando o framework Quarkus;</li>
+					    <li>Implantação e gerenciamento de aplicações em serviços de nuvem, garantindo escalabilidade e segurança;</li>
+					    <li>Uso de Docker para criação e gerenciamento de containers, facilitando a portabilidade e o desenvolvimento de aplicações;</li>
+                        <li>Suporte ao Dev com problemas na sua aplicação em ambientes baseados em Kubernetes, provisionamento de infraestrutura e automação de processos;</li>
+                        <li>Auxílio em rotinas de CI/CD e boas práticas de versionamento de infraestrutura como código.</li>
+				    </ul>
+				    </p>
+				
+			</ul>
+			
+
+		</div>
+		<div class="container-lateral">
+			<div id="imagem"><img src="imgs/eu.jpeg" class="foto"></div>
+			<div id="contato"class="redirecionamento">
+				<h5>Contatos</h5>Quer entrar em contato comigo?
+					<i class="bi bi-whatsapp"></i> +55 (83) 9 9904-4189
+					<i class="bi bi-instagram"></i> lehh.moreiraa_
+					<i class="bi bi-github"></i> LehMoreira
+					<i class="bi bi-envelope-at"></i> moreiraleticya23@gmail.com
+				
+			</div>
+			<form action="#" method="post" class="informacao">
+				<label for="name">Nome: </label>
+				<input type="text" id="name" name="nome" class="form-control" placeholder="Digite seu nome: ">
+				<label for="email">E-mail: </label>
+				<input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail: ">
+				<label for="fone">Telefone: </label>
+				<input type="text" id="fone" name="fone" class="form-control" placeholder="Digite seu telefone: ">
+				<label for="mensagem">Mensagem: </label>
+				<textarea name="message" rows="4" cols="30" class="form-control" placeholder="Deixe aqui algum comentário, dúvida ou mensagem."></textarea>
+				<div class="btn ">
+				<input type="submit" name="enviar" id="enviar"></div>
+			</form>
+		</div>
+	</section>
+	
+    
+</body>
+</html>
