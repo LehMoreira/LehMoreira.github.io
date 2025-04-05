@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    text-align: center;
+}
+h2 {
+    color: #343a40;
+}
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.alterna{
+    background-color: whitesmoke;
+}
+.classi{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.g1{
+    color: blue;
+}
+.g2{
+    color: lightblue;
+}
+.g3{
+    color: green;
+}
+.g4{
+    color: red;
+}
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: lightslategray;
+    color: white;
+}

@@ -1,0 +1,138 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/fundo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.3; 
+    z-index: -1;
+}
+body {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    overflow: hidden;
+    background-color: #8141DB;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a{
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: #8141DB;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu a:hover{
+    opacity: 40%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,250,250,0.8);
+    box-shadow: 5px 5px 20px 8px#262526;
+    border-radius: 20PX;
+    float: left;
+    width: 70%;  
+    padding-top: 2%; 
+}
+p{
+    white-space: pre-line;
+    line-height: 1.5;
+    text-align: justify;
+    padding-right: 5%;
+}
+.redirecionamento{
+    scroll-margin-top: 80px;
+    text-decoration: none;
+}
+.container-lateral{
+    white-space: pre-line;
+    line-height: 1.5;
+    display: flex;
+    padding-top: 2%;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255,250,250,0.8);
+    box-shadow: 5px 5px 20px 8px#262526;
+    border-radius: 20px;
+    color: black;
+    float: left;
+    padding-right: 3%;
+    width: 25%;
+    height: 50%;        
+    min-width: 250px;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    gap: 5px;
+}
+.form-control{
+    box-shadow: 2px 2px 10px 2px#8141DB;
+}
+.form-control:hover{
+    border: 1px solid #8141DB;
+    box-shadow: 2px 2px 10px 2px#8141DB;
+}
+.btn{
+    align-items: center;
+    padding-bottom: 10%;
+}
+.tabela{
+    display: flex;
+    font-size: 12px;
+    padding-right: 20%;
+    padding-left:5%;
+}
+.tabela th, td {
+    border: 3px solid #8141DB;
+    text-align: center;
+    color: black;
+}
+section{
+    padding-top: 5%;
+    padding-left: 5%;
+    display: flex;
+    width: 90%;
+    gap: 10px;
+
+}
+#contato li{
+    list-style-type: none;
+}
+h6,h4,h5{
+    color: #8141DB;
+}
+#enviar{
+    background-color: #8141DB;
+    border: 0px;
+    box-shadow: 1px 1px 2px 1px#262526;
+    border-radius: 20px;
+    width: 30%;
+    color: white;
+}
+#enviar:hover{
+   opacity: 60%;
+}
+.foto{
+    width: 90%;
+    border-radius: 270px;
+}
+#imagem{
+    display: flex;
+    padding-left: 20%;
+}
